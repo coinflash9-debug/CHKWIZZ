@@ -1235,7 +1235,7 @@ def main():
     # Load environment variables
     from dotenv import load_dotenv
     load_dotenv()
-    TOKEN = os.getenv("BOT_TOKEN")
+    TOKEN = "8001170085:AAFCUpgahwg8tfO0lVoT5I_dRd_Qa44iEQA"
     if not TOKEN:
         print("❌ BOT_TOKEN not found in .env file!")
         exit(1)
