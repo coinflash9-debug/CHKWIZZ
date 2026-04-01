@@ -105,7 +105,7 @@ def force_join(func):
 
 
 # --- Callback Handler ---
-async def check_joined_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+def check_joined_callback(update, context):
 
     if not query or not query.from_user:
         return
