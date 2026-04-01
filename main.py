@@ -11,9 +11,9 @@ import pytz
 from telegram.ext import (
     Updater,
     CommandHandler,
-    MessageHandler
+    MessageHandler,
+    CallbackQueryHandler
 )
-    CallbackQueryHandler,
     ContextTypes,
     filters
 
