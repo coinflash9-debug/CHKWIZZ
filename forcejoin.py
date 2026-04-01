@@ -106,7 +106,7 @@ def force_join(func):
 
 # --- Callback Handler ---
 def check_joined_callback(update, context):
-    if not query or not query.from_user::
+    if not query or not query.from_user:
         return
 
     user_id = query.from_user.id
