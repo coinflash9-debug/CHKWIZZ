@@ -8,7 +8,7 @@ import time
 import html
 from datetime import datetime
 import pytz
-from telegram.ext import (
+from telegram.ext import Updatert (
     Application,
     CommandHandler,
     MessageHandler,
