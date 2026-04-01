@@ -442,7 +442,7 @@ async def handle_pp_command(update, context):
         except Exception as e:
             logger.error(f"Error in background check: {e}")
             # Don't expose the actual error to the user
-            error_msg = "⚠️ 
+            error_msg = "⚠️"
             await checking_message.edit_text(error_msg, parse_mode="HTML")
     
     # Schedule the background task without awaiting it to avoid blocking
