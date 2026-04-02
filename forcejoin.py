@@ -113,7 +113,7 @@ def check_joined_callback(update, context):
     logger.info(f"Callback triggered by user {user_id}")
 
     async def check_joined_callback(update, context):
-    if joined:
+        if joined:
         await query.answer(
             "✅ Access granted! You can now use the bot.",
             show_alert=True
