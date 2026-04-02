@@ -141,8 +141,9 @@ __all__ = [
     "check_joined_callback",
     "GROUP_ID",
     "CHANNEL_ID",
-    "FORCE_JOIN_IMAGE",
-    ]        return False
+    "FORCE_JOIN_IMAGE"
+    ]
+return False
 
     channel_status = await safe_get_member(bot, CHANNEL_ID, user_id)
     if channel_status not in valid_statuses:
